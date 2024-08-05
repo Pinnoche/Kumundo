@@ -28,8 +28,8 @@ export default function navbar() {
       ? "bg-transparent backdrop-blur-sm"
       : "bg-black"}`}>
         <div className="w-full h-full flex items-center p-4 ">
-        <Link href='#' className="mr-32">Logo</Link>
-        <ul className="w-full flex items-center justify-between [&>li]:cursor-pointer">
+        <Link href='#' className="mr-64">Logo</Link>
+        <ul className="w-full ml-32 flex items-center justify-between [&>li]:cursor-pointer">
           <li className="hover:text-blue-500">Home</li>
           <li className="hover:text-blue-500">About</li>
           <li className="hover:text-blue-500">How to buy</li>
