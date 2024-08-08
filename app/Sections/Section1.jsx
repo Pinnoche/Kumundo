@@ -22,7 +22,7 @@ function Section1() {
           </div>
         </div>
         <div className="mt-6 w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <Image src="/assets/cat3.jpg" alt="kumundo" width={800} height={700} className="max-w-full h-auto"/>
+          <Image src="/assets/cat3.jpg" alt="kumundo" width={800} height={700} className=""/>
         </div>
       </div>
       <div className="mt-6 bg-blue-600 flex flex-wrap justify-around lg:justify-between px-4 lg:px-24">
