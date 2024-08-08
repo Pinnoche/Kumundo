@@ -34,7 +34,7 @@ export default function Navbar() {
     };
   }, []);
 
-  const navbarClass = scrollPercentage <= 69
+  const navbarClass = scrollPercentage <= 40
   ? "bg-transparent backdrop-blur-sm"
   : "bg-black";
   return (

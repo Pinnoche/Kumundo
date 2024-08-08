@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Section1() {
   return (
-    <div className="bg-black text-white pt-12 w-full">
+    <div className="bg-black text-white w-full">
       <div className="flex flex-col md:flex-col lg:flex-row p-4">
         <div className="flex flex-col items-center lg:items-start pt-8 lg:pt-28 w-full lg:w-1/2 font-kanit text-center lg:text-left">
           <h1 className="text-4xl font-bold">Welcome to</h1>
@@ -22,7 +22,7 @@ function Section1() {
           </div>
         </div>
         <div className="mt-6 w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <Image src="/assets/cat3.jpg" alt="kumundo" width={800} height={700} className=""/>
+          <Image src="/assets/cat5.jpg" alt="kumundo" width={800} height={700} className=""/>
         </div>
       </div>
       <div className="mt-6 bg-blue-600 flex flex-wrap justify-around lg:justify-between px-4 lg:px-24">
