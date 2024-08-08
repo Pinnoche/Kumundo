@@ -5,7 +5,7 @@ import cat1 from '@/public/assets/cat1.jpeg';
 
 function Section2() {
   return (
-    <div className='w-full grid grid-flow-col mt-8'>
+    <div className='w-full grid grid-flow-col mt-8' id='about'>
       <div className='flex items-center justify-start'>
         <Image src={cat1} alt='CAT' quality={100} width={750} priority />
       </div>

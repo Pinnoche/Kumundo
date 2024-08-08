@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Section1() {
   return (
-    <div className="bg-black text-white w-full">
+    <div className="bg-black text-white w-full" id="home">
       <div className="flex flex-col md:flex-col lg:flex-row p-4">
         <div className="flex flex-col items-center lg:items-start pt-8 lg:pt-28 w-full lg:w-1/2 font-kanit text-center lg:text-left">
           <h1 className="text-4xl font-bold">Welcome to</h1>

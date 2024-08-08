@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section3() {
   return (
-    <div className='w-full grid grid-cols-2 text-black mt-8'>
+    <div className='w-full grid grid-cols-2 text-black mt-8' id='how-to-buy'>
       {/* 1 */}
       <div className='flex items-center justify-start'>
         <div className='w-full bg-white shadow-md rounded-s-md rounded-e-md'>
