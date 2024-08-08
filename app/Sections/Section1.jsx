@@ -22,27 +22,27 @@ function Section1() {
           </div>
         </div>
         <div className="mt-6 w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <Image src="/kumondu1.png" alt="kumundo" width={800} height={700} className="max-w-full h-auto"/>
+          <Image src="/assets/cat3.jpg" alt="kumundo" width={800} height={700} className="max-w-full h-auto"/>
         </div>
       </div>
       <div className="mt-6 bg-blue-600 flex flex-wrap justify-around lg:justify-between px-4 lg:px-24">
         <a href="#" target="_blank" className="p-2 rounded-full overflow-hidden">
-          <Image src="/telegram.png" width={84} height={84} alt="telegram" />
+          <Image src="/assets/telegram.png" width={84} height={84} alt="telegram" />
         </a>
         <a href="#" target="_blank" className="p-2 rounded-full overflow-hidden">
-          <Image src="/twitter.png" width={84} height={84} alt="twitter" />
+          <Image src="/assets/twitter.png" width={84} height={84} alt="twitter" />
         </a>
         <a href="#" target="_blank" className="p-2 rounded-full overflow-hidden">
-          <Image src="/dexscreener.png" width={84} height={84} alt="dexscreener"/>
+          <Image src="/assets/dexscreener.png" width={84} height={84} alt="dexscreener"/>
         </a>
         <a href="#" target="_blank" className="p-2 rounded-full overflow-hidden">
-          <Image src="/jup.png" width={84} height={84} alt="jup" />
+          <Image src="/assets/jup.png" width={84} height={84} alt="jup" />
         </a>
         <a href="#" target="_blank" className="p-2 rounded-full overflow-hidden"> 
-          <Image src="/raydium.png" width={84} height={84} alt="raydium" />
+          <Image src="/assets/raydium.png" width={84} height={84} alt="raydium" />
         </a>
         <a href="#" target="_blank" className="p-2 rounded-full overflow-hidden">
-          <Image src="/jup.png" width={84} height={84} alt="jup" />
+          <Image src="/assets/jup.png" width={84} height={84} alt="jup" />
         </a>
       </div>
     </div>
