@@ -5,7 +5,7 @@ import Section3 from "./Sections/Section3";
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-16 text-2xl font-black text-white">
+    <main className="min-h-screen py-20 text-white">
       <Section1 />
       <Section2 />
       <Section3 />
