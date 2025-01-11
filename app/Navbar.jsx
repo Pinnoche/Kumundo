@@ -1,5 +1,6 @@
 "use client";
 
+import SmoothScroll from 'smooth-scroll';
 import {useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,28 +11,26 @@ export default function Navbar() {
   const handleScroll = () => {
     const doc = document.documentElement;
     const scrollTop = (doc && doc.scrollTop) || 0;
-    const windowHeight = innerHeight || 0;
-    const documentHeight = doc.scrollHeight || 0;
+    const windowHeight = innerHeight;
+    const documentHeight = doc.scrollHeight;
 
-    console.log("scrollTop:", scrollTop);
-    console.log("windowHeight:", windowHeight);
-    console.log("documentHeight:", documentHeight);
-
-    const newScrollPercentage = documentHeight > windowHeight ?
-      ((scrollTop + windowHeight) / documentHeight) * 100 : 0;
+    const newScrollPercentage = ((scrollTop + windowHeight) / documentHeight) * 100;
     setScrollPercentage(newScrollPercentage);
-    console.log(scrollPercentage);
-    console.log("newScrollPercentage:", newScrollPercentage);
   };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
-    handleScroll();
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+  }, []);
+ 
+  useEffect(() => {
+    new SmoothScroll('a[href*="#"]', {
+      speed: 6000, 
+      speedAsDuration: true
+    });
   }, []);
 
   const navbarClass = scrollPercentage <= 40
