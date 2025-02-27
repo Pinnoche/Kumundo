@@ -1,20 +1,56 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import pinnoche from '@/public/assets/pinnoche.jpg'
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import pinnoche from '@/public/assets/pinnoche.jpg';
 
 function Footer() {
   return (
-    <div className='py-8 px-2 bg-black w-full h-32 text-white'>
-      <div className='flex items-center justify-between border-t-2 border-gray-300'>
-        <p className='px-2 pt-8'>© 2024 KUMUNDO • All Rights Reserved</p>
-        <p className='text-lg font-bold uppercase'>
-            <Link href="https://x.com/dee74wise" target='_blank' className='hover:text-blue-500' >
-                Designed by <Image src={pinnoche} alt='pinnoche' width={20} height={50} priority className='inline-block bg-center rounded-full'/> Pinnoche
-            </Link></p>
+    <footer className="bg-black text-white py-6 px-4 md:px-10">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between border-t border-gray-600 pt-4">
+        
+        {/* Copyright Text */}
+        <p className="text-center md:text-left text-gray-300 text-sm">
+          © 2024 KUMUNDO • All Rights Reserved
+        </p>
+
+        {/* Designed By Section */}
+        <div className="flex flex-col md:flex-row items-center gap-3 mt-4 md:mt-0 text-sm">
+          <p className="font-semibold uppercase">Designed by:</p>
+          
+          <Link
+            href="https://x.com/dee74wise"
+            target="_blank"
+            className="flex items-center gap-2 hover:text-blue-500 transition"
+          >
+            <Image
+              src={pinnoche}
+              alt="Pinnoche"
+              width={24}
+              height={24}
+              className="rounded-full border border-gray-400"
+            />
+            Pinnoche
+          </Link>
+
+          <Link
+            href="https://x.com/abubakrlawal"
+            target="_blank"
+            className="flex items-center gap-2 hover:text-blue-500 transition"
+          >
+            <Image
+              src={pinnoche}
+              alt="Luminous"
+              width={24}
+              height={24}
+              className="rounded-full border border-gray-400"
+            />
+            Luminous
+          </Link>
         </div>
-    </div>
-  )
+        
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
