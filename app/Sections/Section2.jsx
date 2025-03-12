@@ -5,7 +5,6 @@ import cat1 from '@/public/assets/cat1.jpeg';
 function Section2() {
   return (
     <section id="about" className="w-full flex flex-col md:flex-row items-stretch mt-8 px-4">
-      {/* Image Container */}
       <div className="md:w-2/5 w-full flex">
         <Image 
           src={cat1} 
@@ -16,7 +15,6 @@ function Section2() {
         />
       </div>
 
-      {/* Text Container */}
       <div className="md:w-3/5 w-full flex">
         <div className="w-full rounded-md bg-white text-gray-800 shadow-lg flex flex-col justify-center h-full">
           <h1 className="bg-yellow-300 rounded-t-md text-3xl text-center font-extrabold border-b border-gray-200 py-2">

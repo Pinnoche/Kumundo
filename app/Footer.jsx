@@ -8,12 +8,10 @@ function Footer() {
     <footer className="bg-black text-white py-6 px-4 md:px-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between border-t border-gray-600 pt-4">
         
-        {/* Copyright Text */}
         <p className="text-center md:text-left text-gray-300 text-sm">
           © 2024 KUMUNDO • All Rights Reserved
         </p>
 
-        {/* Designed By Section */}
         <div className="flex flex-col md:flex-row items-center gap-3 mt-4 md:mt-0 text-sm">
           <p className="font-semibold uppercase">Designed by:</p>
           

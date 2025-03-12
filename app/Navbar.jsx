@@ -33,12 +33,11 @@ export default function Navbar() {
     <nav className={`fixed top-0 w-full py-4 h-16 text-white ${navbarClass} z-50`}>
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
         
-        {/* Logo */}
+    
         <Link href="#">
           <Image src={caticon} alt="cat-icon" width={40} height={40} priority className="cursor-pointer" />
         </Link>
 
-        {/* Menu Items */}
         <ul className="hidden md:flex items-center space-x-6 text-sm font-semibold">
           <li><Link href="#home" className="hover:text-blue-500 transition">Home</Link></li>
           <li><Link href="#about" className="hover:text-blue-500 transition">About</Link></li>

@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Section3() {
-  // Steps data
   const steps = [
     {
       title: "Create Solana Wallet",

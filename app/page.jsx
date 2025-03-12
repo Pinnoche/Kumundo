@@ -9,8 +9,7 @@ import Section3 from "./Sections/Section3";
 export default function Home() {
   useEffect(() => {
     new SmoothScroll('a[href*="#"]', {
-      speed: 800, // Scroll speed in milliseconds
-      speedAsDuration: true
+      speed: 800, 
     });
   }, []);
   return (
