@@ -9,7 +9,7 @@ A modern **Web3 frontend** website for quick Solana token launches, enabling use
 ## 🖥️ Tech Stack
 - **Framework:** Next.js
 - **Styling:** TailwindCSS
-- **Language:** TypeScript (if applicable)
+- **Language:** TypeScript
 
 ## ✨ Features
 - ⚡ Fast and responsive Web3 frontend
